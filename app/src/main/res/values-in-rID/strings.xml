@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">iMovie</string>
+    <string name="menu_home">Halaman Utama</string>
+    <string name="menu_favorite">Favorit</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="navigation_drawer_open">Buka Laci Navigasi</string>
+    <string name="navigation_drawer_close">Tutup Laci Navigasi</string>
+    <string name="no_data">Data Kosong</string>
+    <string name="something_wrong">Terjadi Kesalahan. Tolong Coba Lagi</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Selanjutnya</string>
+    <string name="previous">Sebelumnya</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="movie_title">Judul Film</string>
+    <string name="movie_genres">Genre</string>
+    <string name="movie_overview">Gambaran</string>
+    <string name="popularity">Kepopuleran</string>
+    <string name="vote">Pilih</string>
+    <string name="release_date">Tanggal Rilis: </string>
+    <string name="title_favorite">Favorit</string>
+    <string name="title_favorites">Judul Modul</string>
+    <string name="settings">Pengaturan</string>
+    <string name="change_language">Ganti Bahasa</string>
+    <string name="setting_title">Pengaturan</string>
+    <string name="select_language">Pilih Bahasa</string>
+    <string name="indonesian" />
+</resources>
