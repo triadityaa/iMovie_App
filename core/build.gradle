@@ -19,6 +19,20 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
+
+        lintOptions {
+            disable 'TypographyFractions','TypographyQuotes'
+
+            enable 'RtlHardcoded','RtlCompat', 'RtlEnabled'
+
+            check 'NewApi', 'InlinedApi'
+
+            quiet true
+
+            abortOnError false
+
+            ignoreWarnings true
+        }
     }
 
     buildTypes {

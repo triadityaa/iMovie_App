@@ -19,6 +19,20 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        lintOptions {
+            disable 'TypographyFractions','TypographyQuotes'
+
+            enable 'RtlHardcoded','RtlCompat', 'RtlEnabled'
+
+            checkOnly 'NewApi', 'InlinedApi'
+
+            quiet true
+
+            abortOnError false
+
+            ignoreWarnings true
+        }
     }
 
     buildTypes {

@@ -32,4 +32,5 @@
     <string name="setting_title">Pengaturan</string>
     <string name="select_language">Pilih Bahasa</string>
     <string name="indonesian" />
+    <string name="logo_imovie">logo_iMovie</string>
 </resources>
