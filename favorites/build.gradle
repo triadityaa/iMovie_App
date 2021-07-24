@@ -8,20 +8,6 @@ plugins {
 apply from: '../shared_dependencies.gradle'
 
 android {
-    lintOptions {
-        disable 'TypographyFractions','TypographyQuotes'
-
-        enable 'RtlHardcoded','RtlCompat', 'RtlEnabled'
-
-        checkOnly 'NewApi', 'InlinedApi'
-
-        quiet true
-
-        abortOnError false
-
-        ignoreWarnings true
-    }
-
     compileSdkVersion 30
     buildToolsVersion "30.0.3"
 
@@ -33,12 +19,25 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        lintOptions {
+            disable 'TypographyFractions','TypographyQuotes'
+
+            enable 'RtlHardcoded','RtlCompat', 'RtlEnabled'
+
+            checkOnly 'NewApi', 'InlinedApi'
+
+            quiet true
+
+            abortOnError false
+
+            ignoreWarnings true
+        }
     }
 
     buildTypes {
         release {
             minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
 
